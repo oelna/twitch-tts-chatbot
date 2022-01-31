@@ -1,0 +1,10 @@
+[
+	{
+		"interval": 1800,
+		"message": "Routine message that runs every 1800 seconds."
+	},
+	{
+		"interval": 300,
+		"message": "Message that gets posted every 5 minutes."
+	}
+]

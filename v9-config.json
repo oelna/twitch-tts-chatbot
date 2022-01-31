@@ -1,0 +1,63 @@
+{
+	"admin": {
+		"email": "username@gmail.com"
+	},
+	"bot": {
+		"access_token": "123456q42ser323wfggc7ax6czyi4b",
+		"client_id": "jd07juoqq4cabacd7lqft5gozcdle7",
+		"client_secret": "6d3mgdf1sipq3d70i6ja52538atoy18",
+		"name": "oelnabot",
+		"refresh_token": "nbceucqgddf5680cb7b9w6zhf1ns20aepqryfwajq6k0xhnvjx0",
+		"scope": [
+			"chat:read",
+			"chat:edit",
+			"channel:moderate",
+			"whispers:read",
+			"whispers:edit",
+			"channel:read:redemptions",
+			"bits:read",
+			"channel:read:subscriptions"
+		],
+		"token_type": "bearer",
+		"updated": "2022-01-28 14:11:09"
+	},
+	"channel": {
+		"access_token": "cou0pff9saghyah1z6o2mtrchtr68nw",
+		"client_id": "g0x7jf5jcbzw3849aa6ds9g7gv1onl",
+		"client_secret": "g8czb332gi0y89pkcg8sfmi319f2rs",
+		"name": "oelna81",
+		"refresh_token": "m1d2mme64345565aedpxeger5qlwfzwlpa8hsb944kgfiqf8v",
+		"scope": [
+			"chat:read",
+			"chat:edit",
+			"channel:moderate",
+			"whispers:read",
+			"whispers:edit",
+			"channel:read:redemptions",
+			"bits:read",
+			"channel:read:subscriptions",
+			"channel:manage:broadcast"
+		],
+		"token_type": "bearer",
+		"updated": "2022-01-28 14:11:10"
+	},
+	"server": {
+		"irc": {
+			"port": 443,
+			"ssl": true,
+			"url": "wss://irc-ws.chat.twitch.tv",
+			"verify_peer": false
+		},
+		"pubsub": {
+			"port": 443,
+			"ssl": true,
+			"topics": [
+				"channel-points-channel-v1.59039718",
+				"channel-bits-events-v2.59039718",
+				"channel-subscribe-events-v1.59039718"
+			],
+			"url": "wss://pubsub-edge.twitch.tv",
+			"verify_peer": false
+		}
+	}
+}
